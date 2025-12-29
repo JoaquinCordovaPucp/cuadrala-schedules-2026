@@ -32,7 +32,7 @@ export default function HorarioResults({ events }) {
     }
 
     return(
-        <div className="w-full h-full bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-4 mb-6">
+        <div className="overflow-y-auto w-full h-full bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-4 mb-6">
             <div className='flex flex-row w-full justify-between'>
                 <h3 className='font-bold text-xl'>Horario {indexEvent + 1 } de {eventsLength}</h3>
                 <ButtonGroup>

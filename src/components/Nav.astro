@@ -17,7 +17,7 @@ const { type = 'base' } = Astro.props;
   </>
 )}
 
-<div class="w-auto flex justify-center md:justify-end md:px-12 px-5 md:mt-0 mt-4">
+<div class="w-auto flex justify-center md:justify-end md:px-12 px-5 md:mt-0 mt-2">
 
   {type === 'advanced' && (
     //  Logo desktop 
@@ -45,13 +45,13 @@ const { type = 'base' } = Astro.props;
 
 {type === 'advanced' && (
   <!-- Logo mobile -->
-  <div class="relative w-full flex justify-center md:hidden px-4 my-5">
+  <div class="relative w-full flex justify-center md:hidden px-4 my-3">
     {/* <BigLogoBg class="pointer-events-none absolute top-0 left-0 w-64 h-64 translate-y-26 -translate-x-36 rotate-24 opacity-[0.96] blur-[3.8px] -z-10"/>
     <BigLogoBg class="pointer-events-none absolute right-0 top-100 w-110 translate-y-20 translate-x-12 -rotate-21 opacity-[0.96] blur-[3.8px] -z-10"/>  */}
 
     <a class="flex items-baseline gap-4 mx-auto" href="/">
       <div class="hero-icon w-12 h-12" role="img" aria-label="Icono Cuadrala"></div>
-      <h1 class="text-[3.5rem] font-sans font-medium">kjiskolm.pe</h1>
+      <h1 class="text-[3.2rem] font-sans font-medium">kjiskolm.pe</h1>
     </a>
   </div>
 )}

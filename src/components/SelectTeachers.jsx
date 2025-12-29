@@ -17,7 +17,7 @@ export default function SelectTeachers({selectInfo, setCourse, handleButtonGener
     return(
         <div className="w-full min-h-0 bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-4 mb-4">
             <h2 className="text-2xl font-bold">Selecciona tus profesores</h2>
-            <p className="">Selecciona uno o mas profesores por cada curso para obtener las combinaciones.</p>
+            <p className="text-sm">Selecciona uno o mas profesores por cada curso para obtener las combinaciones.</p>
             <div className="overflow-y-auto gap-2 flex flex-col">
                 {selectInfo.map(curso => {
                     return (

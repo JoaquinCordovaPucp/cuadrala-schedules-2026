@@ -13,7 +13,6 @@ export default function Calendar({ events }) {
       <FullCalendar
         // titleFormat={date => renderTitle(date)}
         plugins={[timeGridPlugin]}
-        height="90%"
         initialView='timeGridWeek'
         headerToolbar={false}   
         initialDate="2024-01-01"
@@ -38,7 +37,6 @@ function renderEventContent(eventInfo) {
       <b className=''>{eventInfo.timeText}</b>
       <i className='font-bold'>{eventInfo.event.title}</i>
       <Badge variant='outline text-white'>{eventInfo.event.extendedProps.horarioId}</Badge>                
-      {/* NEED TO IMPORT THE HORARIO ID DINAMICALLY HERE  */}
     </div>
   )
 }
