@@ -4,7 +4,7 @@ import SelectTeachers from './SelectTeachers.jsx';
 import HorariosResults from './HorariosResults.jsx';
 import { useState } from 'react';
 import { generarCombinaciones } from "../data/functions_copy.js"
-import NextButton from './NextButton.jsx';
+
 
 
 
@@ -133,9 +133,9 @@ const Index = ({cursos }) => {
 
 
     return(
-        <div className="flex flex-col items-center px-4 pb-2 h-screen w-full relative">
+        <div className="min-h-0 flex flex-col items-center px-4 pb-2 w-full relative">
             <Steps step={step} setStep={setStep} /> 
-            {step === 0 && <><SelectCourses cursos={cursos} setCourse={setCourse} selectInfo={selectInfo} /> </>}
+            {step === 0 && <><SelectCourses cursos={cursos} setCourse={setCourse} selectInfo={selectInfo} setStep={setStep}/> </>}
             {step === 1 && <SelectTeachers selectInfo={selectInfo} setCourse={setCourse} handleButtonGeneraComb={handleButtonGeneraComb} />}
             {step === 2 && <HorariosResults selectInfo={selectInfo} events={events} />} 
         </div>
