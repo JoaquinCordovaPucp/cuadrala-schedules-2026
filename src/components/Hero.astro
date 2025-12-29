@@ -1,0 +1,112 @@
+---
+/* si el svg está en src/assets/icon-cuadrala.svg */
+
+
+interface Props {
+  type?: "base" | "advanced"
+}
+
+const { type = "base" } = Astro.props
+const isAdvanced = type === "advanced"
+---
+
+<div
+  class:list={[
+    "relative w-full px-4",
+    isAdvanced
+      ? "md:flex justify-center md:justify-start my-2 hidden"
+      : "flex justify-center md:justify-start md:mt-8 md:mb-10 my-5"
+  ]}
+>
+  <div
+    class:list={[
+      "flex",
+      isAdvanced ? "flex-col my-auto" : "items-start gap-4 mx-auto"
+    ]}
+  >
+    <div class="flex flex-col">
+      <a href="/">
+        <div class="flex items-baseline md:gap-4 gap-1.5">
+          <div
+            transition:name="hero-icon"
+            class:list={[
+              "hero-icon",
+              isAdvanced
+                ? "w-3 h-3 md:w-8 md:h-8"
+                : "w-12 h-12 md:w-24 md:h-24"
+            ]}
+            role="img"
+            aria-label="Icono Cuadrala"
+          />
+          <h1
+            transition:name="hero-text"
+            class:list={[
+              "font-sans font-medium",
+              isAdvanced
+                ? "md:text-3xl text-[3.5rem]"
+                : "md:text-8xl text-[3.5rem]"
+            ]}
+          >
+            kjiskolm.pe
+          </h1>
+        </div>
+      </a>
+
+      {!isAdvanced && (
+        <h2 class="text-2xl font-sans font-normal md:mt-2 text-center">
+          Tu multiusos para PUCP
+        </h2>
+      )}
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+.hero-icon {
+
+  display: inline-block;
+
+  /* Gradient principal */
+  background: conic-gradient(#376ABC 0deg, #193156 324deg);
+
+  /* Aplicar la máscara del SVG */
+  -webkit-mask: url('/src/assets/icon-cuadrala.svg') no-repeat center / contain;
+          mask: url('/src/assets/icon-cuadrala.svg') no-repeat center / contain;
+
+  position: relative;
+  isolation: isolate; /* importante para mezclar blur/ruido */
+}
+
+/* --- Noise suave arriba del ícono --- */
+.hero-icon::after {
+  content: "";
+  position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='60' height='60' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay;
+    opacity: 0.15;
+
+    -webkit-mask: inherit; /* El noise sigue la forma del ícono */
+            mask: inherit;
+  }
+
+  /* --- Blur glow suave detrás del ícono --- */
+  .hero-icon::before {
+    content: "";
+    position: absolute;
+    inset: -6px;           /* ligero halo alrededor */
+    border-radius: inherit;
+
+    background: radial-gradient(
+      rgba(55, 106, 188, 0.25),
+      rgba(25, 49, 86, 0)
+    );
+
+    filter: blur(8px);     /* blur suave */
+    z-index: -1;           /* detrás del ícono */
+  }
+  </style>

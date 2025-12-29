@@ -1,0 +1,106 @@
+---
+import BigLogoBg from '../assets/big-logo-bg.svg';
+import Hero from './Hero.astro';
+
+interface Props {
+  type?: 'base' | 'advanced';
+}
+
+const { type = 'base' } = Astro.props;
+---
+
+{type === 'advanced' && (
+  <>
+    {/* Background logos (desktop)  */}
+    {/* <BigLogoBg class="pointer-events-none absolute top-0 left-0 md:w-1/2 w-64 h-64 translate-y-26 -translate-x-36 rotate-24 opacity-[0.96] blur-[3.8px] -z-10"/>
+    <BigLogoBg class="pointer-events-none absolute right-0 top-100 md:w-1/2 w-110 translate-y-20 translate-x-12 -rotate-21 opacity-[0.96] blur-[3.8px] -z-10"/>  */}
+  </>
+)}
+
+<div class="w-auto flex justify-center md:justify-end md:px-12 px-5 md:mt-0 mt-4">
+
+  {type === 'advanced' && (
+    //  Logo desktop 
+    <Hero type="advanced"/>
+  )}
+
+  <!-- NAV -->
+  <div class="nav-container md:my-4 bg-[#a2bae157] md:px-8 px-4 md:py-4 py-2 rounded-lg">
+    <nav class="flex md:text-lg text-base font-medium">
+      <ul class="inline-flex gap-6 justify-between items-center w-full">
+        <li><a class="hover:underline" href="/calculadora">Herramientas</a></li>
+        <li><a class="hover:underline" href="/horario">Recursos</a></li>
+        <li>
+          <div class="bg-linear-to-br from-[#376ABC] to-[#193156] inline-flex items-center gap-2 px-4 py-2 rounded-md shadow-md">
+            <a class="hover:underline text-white font-medium" href="/recordatorios">
+              Tienda
+            </a>
+            <img src="/small-arrow.svg" alt="small arrow" class="pr-1.5"/>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+{type === 'advanced' && (
+  <!-- Logo mobile -->
+  <div class="relative w-full flex justify-center md:hidden px-4 my-5">
+    {/* <BigLogoBg class="pointer-events-none absolute top-0 left-0 w-64 h-64 translate-y-26 -translate-x-36 rotate-24 opacity-[0.96] blur-[3.8px] -z-10"/>
+    <BigLogoBg class="pointer-events-none absolute right-0 top-100 w-110 translate-y-20 translate-x-12 -rotate-21 opacity-[0.96] blur-[3.8px] -z-10"/>  */}
+
+    <a class="flex items-baseline gap-4 mx-auto" href="/">
+      <div class="hero-icon w-12 h-12" role="img" aria-label="Icono Cuadrala"></div>
+      <h1 class="text-[3.5rem] font-sans font-medium">kjiskolm.pe</h1>
+    </a>
+  </div>
+)}
+
+
+<style>
+.hero-icon {
+
+  display: inline-block;
+
+  /* Gradient principal */
+  background: conic-gradient(#376ABC 0deg, #193156 324deg);
+
+  /* Aplicar la máscara del SVG */
+  -webkit-mask: url('/src/assets/icon-cuadrala.svg') no-repeat center / contain;
+          mask: url('/src/assets/icon-cuadrala.svg') no-repeat center / contain;
+
+  position: relative;
+  isolation: isolate; /* importante para mezclar blur/ruido */
+}
+
+/* --- Noise suave arriba del ícono --- */
+.hero-icon::after {
+  content: "";
+  position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='60' height='60' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+    mix-blend-mode: overlay;
+    opacity: 0.15;
+
+    -webkit-mask: inherit; /* El noise sigue la forma del ícono */
+            mask: inherit;
+  }
+
+  /* --- Blur glow suave detrás del ícono --- */
+  .hero-icon::before {
+    content: "";
+    position: absolute;
+    inset: -6px;           /* ligero halo alrededor */
+    border-radius: inherit;
+
+    background: radial-gradient(
+      rgba(55, 106, 188, 0.25),
+      rgba(25, 49, 86, 0)
+    );
+
+    filter: blur(8px);     /* blur suave */
+    z-index: -1;           /* detrás del ícono */
+  }
+  </style>
