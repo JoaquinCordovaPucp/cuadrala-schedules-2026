@@ -3,15 +3,24 @@ import CourseCard from "./CourseCard.jsx";
 import { useState } from "react";
 import { Button } from "./ui/button.js";
 import AdMobile from "./AdMobile.jsx";
-
+import React from "react";
 
 export default function SelectCourses({cursos, setCourse, selectInfo, setStep}) {
-    const [searchQuery, setSearchQuery] = useState("")
+    
+    const [searchQuery, setSearchQuery] = useState("");
+    function normalizeText(text) {
+        return text
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+    }
     const filteredCursos = cursos.filter(curso =>
-        curso.title.toLowerCase().includes(searchQuery.toLowerCase())
+        normalizeText(curso.title).includes(
+            normalizeText(searchQuery)
+        )
     )
     return(
-        <div className="w-full overflow-y-auto bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-4 mb-2">
+        <div className="w-full min-h-0 bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-4 mb-2">
             <h2 className="text-2xl font-bold mb-2">Selecciona tus cursos</h2>
             <SearchBar
                 searchQuery={searchQuery}
@@ -19,23 +28,15 @@ export default function SelectCourses({cursos, setCourse, selectInfo, setStep}) 
             />
             <div className="min-h-0 overflow-y-auto gap-2 flex flex-col pb-2">
                 {filteredCursos.map((curso, i) => {
-                    const datos = {
-                        nombre: curso.title,
-                        id: curso.id,
-                        profesores: curso.horarios.length,
-                        creditos: curso.creditos
-                    }
-
                     return (
-                        <>
-                        <CourseCard
-                        key={curso.id}
-                        datos={datos}
-                        setCourseId={setCourse}
-                        isChecked={selectInfo.some(c => c.id === curso.id)}
-                        />
-                        {i % 4 === 3 && <AdMobile />}
-                        </>
+                        <React.Fragment key={curso.id}>
+                            <CourseCard
+                                curso={curso}
+                                setCourseId={setCourse}
+                                isChecked={selectInfo.some(c => c.id === curso.id)}
+                            />
+                            {i % 4 === 3 && <AdMobile />}
+                        </React.Fragment>
                     )
                 })}
             </div>
