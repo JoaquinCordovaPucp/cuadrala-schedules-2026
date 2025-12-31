@@ -9,7 +9,7 @@ export default function TeacherCard({cursoId, horarioId, setCourseId, isChecked}
 
     return(
         <div className="flex items-start space-x-3 p-3 rounded-lg border hover:bg-muted/50 transition-colors">
-            <Checkbox id={`horario-${horarioId}`} checked={isChecked} onCheckedChange={(value) => {
+            <Checkbox id={`horario-${horarioId}-${cursoId}`} checked={isChecked} onCheckedChange={(value) => {
                 if(value === true) {
                     setCourseId(cursoId, "add", horarioId)
                 } else if (value === false) {
@@ -17,7 +17,7 @@ export default function TeacherCard({cursoId, horarioId, setCourseId, isChecked}
                 }
             }}/> 
             <div className="flex flex-col">
-                <label htmlFor={`horario-${horarioId}`} className=" text-lg font-medium cursor-pointer flex flex-col sm:flex-row sm:items-center">
+                <label htmlFor={`horario-${horarioId}-${cursoId}`} className=" text-lg font-medium cursor-pointer flex flex-col sm:flex-row sm:items-center">
                     <h3 className="">{horarioData.profesor}</h3>
                     <Badge variant="outline">{horarioId}</Badge>
                 </label>

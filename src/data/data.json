@@ -1,0 +1,8655 @@
+[
+  {
+    "id": "1ANT01",
+    "title": "ANTROPOLOGÍA URBANA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0396",
+        "profesor": "Sanchez, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 14,
+            "fin": 18
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 134,
+            "fin": 138
+          }
+        ]
+      },
+      {
+        "horarioId": "0397",
+        "profesor": "Rivera, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ARQ11",
+    "title": "TECNOLOGÍA PREHISPÁNICA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0396",
+        "profesor": "Uribe, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY01",
+    "title": "INTRODUCCIÓN A LA INGENIERÍA BIOMÉDICA",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "B101",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 154
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY04",
+    "title": "COMUNICACIÓN Y REDACCIÓN",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "B101",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 62
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 62,
+            "fin": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY06",
+    "title": "QUÍMICA ORGÁNICA",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "B301",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 124,
+            "fin": 128
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "B302",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY07",
+    "title": "BIOLOGÍA",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "B301",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "B302",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 124,
+            "fin": 128
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY38",
+    "title": "QUÍMICA GENERAL",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "B201",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "B202",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "B203",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "B204",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "B205",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 74,
+            "fin": 78
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 134,
+            "fin": 138
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY39",
+    "title": "PROCESOS DE INNOVACIÓN EN BIOINGENIERÍA",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "B201",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "B202",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "B203",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "B204",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "B205",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY40",
+    "title": "FUNDAMENTOS DE ANÁLISIS INSTRUMENTAL",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "B401",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "B402",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 134,
+            "fin": 138
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "B403",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 134,
+            "fin": 138
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "B404",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 138,
+            "fin": 142
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY41",
+    "title": "FUNDAMENTOS DE BIODISEÑO",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "B401",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 70
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 74,
+            "fin": 82
+          }
+        ]
+      },
+      {
+        "horarioId": "B402",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 70
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 74,
+            "fin": 82
+          }
+        ]
+      },
+      {
+        "horarioId": "B403",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 70
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 120,
+            "fin": 128
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CAY42",
+    "title": "FILOSOFÍA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "B101",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CDR01",
+    "title": "CULTURA Y CRISTIANISMO",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0481",
+        "profesor": "Piccone, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 40
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0482",
+        "profesor": "Piccone, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 70
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CIV42",
+    "title": "TOPOGRAFÍA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0455",
+        "profesor": "Campos, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          }
+        ]
+      },
+      {
+        "horarioId": "0457",
+        "profesor": "Campos, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 12
+          }
+        ]
+      },
+      {
+        "horarioId": "0458",
+        "profesor": "Cabrera, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 40
+          }
+        ]
+      },
+      {
+        "horarioId": "0459",
+        "profesor": "Cabrera, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1CIV43",
+    "title": "INTRODUCCIÓN A LA INGENIERÍA CIVIL",
+    "creditos": 2.5,
+    "horarios": [
+      {
+        "horarioId": "0352",
+        "profesor": "Lozano, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 150,
+            "fin": 152
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0353",
+        "profesor": "Lozano, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 156,
+            "fin": 158
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0354",
+        "profesor": "Aguilar, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 150,
+            "fin": 152
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0355",
+        "profesor": "Aguilar, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 112,
+            "fin": 114
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 114,
+            "fin": 118
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ECH42",
+    "title": "TALLER DE INGENIERÍA QUÍMICA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0378",
+        "profesor": "Gusukuma, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 68,
+            "fin": 72
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1EGC01",
+    "title": "CURSO DE TEMA LIBRE 1",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0283",
+        "profesor": "Casado, FWeiler, B",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 126
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 126,
+            "fin": 130
+          }
+        ]
+      },
+      {
+        "horarioId": "0284",
+        "profesor": "Bell, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 50,
+            "fin": 52
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 52,
+            "fin": 56
+          }
+        ]
+      },
+      {
+        "horarioId": "0285",
+        "profesor": "Murga, CNagata, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 36,
+            "fin": 40
+          }
+        ]
+      },
+      {
+        "horarioId": "0286",
+        "profesor": "Murga, CSabogal, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 106,
+            "fin": 108
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 108,
+            "fin": 112
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1EGC02",
+    "title": "CURSO DE TEMA LIBRE 2",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0281",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 20,
+            "fin": 22
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 22,
+            "fin": 26
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1EGC03",
+    "title": "CURSO DE TEMA LIBRE 3",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0272",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 22,
+            "fin": 26
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 60,
+            "fin": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1EGC04",
+    "title": "CURSO DE TEMA LIBRE 4",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0399",
+        "profesor": "Espinoza, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIL01",
+    "title": "CIENCIA Y FILOSOFÍA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0251",
+        "profesor": "Añi, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 126,
+            "fin": 130
+          }
+        ]
+      },
+      {
+        "horarioId": "0252",
+        "profesor": "Alvarado, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0253",
+        "profesor": "Obregon, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0254",
+        "profesor": "Mendoza, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 92,
+            "fin": 96
+          }
+        ]
+      },
+      {
+        "horarioId": "0255",
+        "profesor": "Cuenca, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0256",
+        "profesor": "Merma, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0257",
+        "profesor": "Merino, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0259",
+        "profesor": "D'Onofrio, S",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0260",
+        "profesor": "Moreno, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0261",
+        "profesor": "Casallo, V",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          }
+        ]
+      },
+      {
+        "horarioId": "0262",
+        "profesor": "Ibañez, F",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          }
+        ]
+      },
+      {
+        "horarioId": "0263",
+        "profesor": "Añi, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0264",
+        "profesor": "Alvarado, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 44,
+            "fin": 48
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0265",
+        "profesor": "Obregon, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 80,
+            "fin": 84
+          }
+        ]
+      },
+      {
+        "horarioId": "0266",
+        "profesor": "Mendoza, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0267",
+        "profesor": "Cuenca, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0268",
+        "profesor": "Merma, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0269",
+        "profesor": "Merino, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIS01",
+    "title": "FUNDAMENTOS DE FÍSICA",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0101",
+        "profesor": "Guerra, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "A101",
+        "profesor": "Miranda, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "I101",
+        "profesor": "Miranda, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0102",
+        "profesor": "Pizarro, C",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "I102",
+        "profesor": "Garcia Calderon, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0103",
+        "profesor": "Beltran, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0104",
+        "profesor": "Ruelas, D",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0105",
+        "profesor": "Pereyra, P",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          }
+        ]
+      },
+      {
+        "horarioId": "0106",
+        "profesor": "Galvez, G",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          }
+        ]
+      },
+      {
+        "horarioId": "0107",
+        "profesor": "Vilcapoma, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 66
+          }
+        ]
+      },
+      {
+        "horarioId": "0108",
+        "profesor": "Gonzales, F",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 62,
+            "fin": 68
+          }
+        ]
+      },
+      {
+        "horarioId": "0109",
+        "profesor": "Ortiz, O",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 126,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0110",
+        "profesor": "Vilcapoma, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 126,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0111",
+        "profesor": "Flores, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0112",
+        "profesor": "Beltran, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0113",
+        "profesor": "Gonzales, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          }
+        ]
+      },
+      {
+        "horarioId": "0114",
+        "profesor": "Pajuelo, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 66
+          }
+        ]
+      },
+      {
+        "horarioId": "0115",
+        "profesor": "Galvez, G",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          }
+        ]
+      },
+      {
+        "horarioId": "0116",
+        "profesor": "Calvo, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 96
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIS02",
+    "title": "FÍSICA 1",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0201",
+        "profesor": "Choque, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "B201",
+        "profesor": "Flores, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      },
+      {
+        "horarioId": "0202",
+        "profesor": "Guzman, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "B202",
+        "profesor": "Asmad, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      },
+      {
+        "horarioId": "0203",
+        "profesor": "Galvez, G",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0204",
+        "profesor": "Rojas, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "0205",
+        "profesor": "Calderon, N",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0206",
+        "profesor": "Gonzales, F",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0207",
+        "profesor": "Choque, D",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0208",
+        "profesor": "Pizarro, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0209",
+        "profesor": "Galvez, G",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0210",
+        "profesor": "Perez, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0211",
+        "profesor": "Montoya, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0212",
+        "profesor": "Miranda, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0213",
+        "profesor": "Beltran, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0214",
+        "profesor": "Gonzales, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0215",
+        "profesor": "Vilchez, H",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0216",
+        "profesor": "Amao, P",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 80,
+            "fin": 84
+          }
+        ]
+      },
+      {
+        "horarioId": "0217",
+        "profesor": "Quiroz, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0218",
+        "profesor": "Moscoso, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0219",
+        "profesor": "Rojas, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0220",
+        "profesor": "Guzman, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 80,
+            "fin": 84
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIS03",
+    "title": "LABORATORIO DE FÍSICA 1",
+    "creditos": 0.5,
+    "horarios": [
+      {
+        "horarioId": "0201",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "B201",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0202",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 0,
+            "fin": 4
+          }
+        ]
+      },
+      {
+        "horarioId": "B202",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 25,
+            "fin": 29
+          }
+        ]
+      },
+      {
+        "horarioId": "0203",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 60,
+            "fin": 64
+          }
+        ]
+      },
+      {
+        "horarioId": "B203",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 55,
+            "fin": 59
+          }
+        ]
+      },
+      {
+        "horarioId": "0204",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0205",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0206",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 5,
+            "fin": 9
+          }
+        ]
+      },
+      {
+        "horarioId": "0207",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 65,
+            "fin": 69
+          }
+        ]
+      },
+      {
+        "horarioId": "0208",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 95,
+            "fin": 99
+          }
+        ]
+      },
+      {
+        "horarioId": "0209",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 155,
+            "fin": 159
+          }
+        ]
+      },
+      {
+        "horarioId": "0210",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 70,
+            "fin": 74
+          }
+        ]
+      },
+      {
+        "horarioId": "0211",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 125,
+            "fin": 129
+          }
+        ]
+      },
+      {
+        "horarioId": "0212",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 10,
+            "fin": 14
+          }
+        ]
+      },
+      {
+        "horarioId": "0213",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 160,
+            "fin": 164
+          }
+        ]
+      },
+      {
+        "horarioId": "0214",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 130,
+            "fin": 134
+          }
+        ]
+      },
+      {
+        "horarioId": "0215",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 75,
+            "fin": 79
+          }
+        ]
+      },
+      {
+        "horarioId": "0216",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 135,
+            "fin": 139
+          }
+        ]
+      },
+      {
+        "horarioId": "0217",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 15,
+            "fin": 19
+          }
+        ]
+      },
+      {
+        "horarioId": "0218",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 80,
+            "fin": 84
+          }
+        ]
+      },
+      {
+        "horarioId": "0219",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0220",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      },
+      {
+        "horarioId": "0221",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 20,
+            "fin": 24
+          }
+        ]
+      },
+      {
+        "horarioId": "0222",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 85,
+            "fin": 89
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIS04",
+    "title": "FÍSICA 2",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0301",
+        "profesor": "Pereyra, P",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "B301",
+        "profesor": "Salazar, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      },
+      {
+        "horarioId": "0302",
+        "profesor": "Sanchez, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "B302",
+        "profesor": "Choque, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      },
+      {
+        "horarioId": "0303",
+        "profesor": "Canchos, V",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0304",
+        "profesor": "Zegarra, K",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          }
+        ]
+      },
+      {
+        "horarioId": "0305",
+        "profesor": "Montes, H",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0306",
+        "profesor": "Calderon, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0307",
+        "profesor": "Ruelas, D",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "0308",
+        "profesor": "Zegarra, K",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0309",
+        "profesor": "Rojas, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0310",
+        "profesor": "Castillo, H",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0311",
+        "profesor": "Calderon, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0312",
+        "profesor": "Baldwin, G",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIS05",
+    "title": "LABORATORIO DE FÍSICA 2",
+    "creditos": 0.5,
+    "horarios": [
+      {
+        "horarioId": "0301",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "B301",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 0,
+            "fin": 4
+          }
+        ]
+      },
+      {
+        "horarioId": "0302",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "B302",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 25,
+            "fin": 29
+          }
+        ]
+      },
+      {
+        "horarioId": "0303",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 60,
+            "fin": 64
+          }
+        ]
+      },
+      {
+        "horarioId": "0304",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 5,
+            "fin": 9
+          }
+        ]
+      },
+      {
+        "horarioId": "0305",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 65,
+            "fin": 69
+          }
+        ]
+      },
+      {
+        "horarioId": "0306",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 95,
+            "fin": 99
+          }
+        ]
+      },
+      {
+        "horarioId": "0307",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 125,
+            "fin": 129
+          }
+        ]
+      },
+      {
+        "horarioId": "0308",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 10,
+            "fin": 14
+          }
+        ]
+      },
+      {
+        "horarioId": "0309",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 135,
+            "fin": 139
+          }
+        ]
+      },
+      {
+        "horarioId": "0310",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0311",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 70,
+            "fin": 74
+          }
+        ]
+      },
+      {
+        "horarioId": "0312",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 15,
+            "fin": 19
+          }
+        ]
+      },
+      {
+        "horarioId": "0313",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 130,
+            "fin": 134
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIS06",
+    "title": "FÍSICA 3",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0401",
+        "profesor": "Calderon, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "B401",
+        "profesor": "Quiroz, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0402",
+        "profesor": "Salazar, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0403",
+        "profesor": "Montes, H",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0404",
+        "profesor": "Vilca, F",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "0405",
+        "profesor": "Vilchez, H",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0406",
+        "profesor": "Vilcapoma, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0407",
+        "profesor": "Mejia, B",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0408",
+        "profesor": "Calderon, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0409",
+        "profesor": "Vilchez, H",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "0410",
+        "profesor": "Calvo, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0411",
+        "profesor": "Quiroz, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0412",
+        "profesor": "Moscoso, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0413",
+        "profesor": "Vilcapoma, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0414",
+        "profesor": "Moscoso, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0415",
+        "profesor": "Guzman, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0416",
+        "profesor": "Salazar, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0417",
+        "profesor": "Guzman, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0418",
+        "profesor": "Montoya, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 54,
+            "fin": 58
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1FIS07",
+    "title": "LABORATORIO DE FÍSICA 3",
+    "creditos": 0.5,
+    "horarios": [
+      {
+        "horarioId": "0401",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "B401",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 0,
+            "fin": 4
+          }
+        ]
+      },
+      {
+        "horarioId": "0402",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 60,
+            "fin": 64
+          }
+        ]
+      },
+      {
+        "horarioId": "B402",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 55,
+            "fin": 59
+          }
+        ]
+      },
+      {
+        "horarioId": "0403",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0404",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 155,
+            "fin": 159
+          }
+        ]
+      },
+      {
+        "horarioId": "0405",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "0406",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 125,
+            "fin": 129
+          }
+        ]
+      },
+      {
+        "horarioId": "0407",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 95,
+            "fin": 99
+          }
+        ]
+      },
+      {
+        "horarioId": "0408",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 15,
+            "fin": 19
+          }
+        ]
+      },
+      {
+        "horarioId": "0409",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 5,
+            "fin": 9
+          }
+        ]
+      },
+      {
+        "horarioId": "0410",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 10,
+            "fin": 14
+          }
+        ]
+      },
+      {
+        "horarioId": "0411",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      },
+      {
+        "horarioId": "0412",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 75,
+            "fin": 79
+          }
+        ]
+      },
+      {
+        "horarioId": "0413",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 70,
+            "fin": 74
+          }
+        ]
+      },
+      {
+        "horarioId": "0414",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 65,
+            "fin": 69
+          }
+        ]
+      },
+      {
+        "horarioId": "0415",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 130,
+            "fin": 134
+          }
+        ]
+      },
+      {
+        "horarioId": "0416",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 160,
+            "fin": 164
+          }
+        ]
+      },
+      {
+        "horarioId": "0417",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 135,
+            "fin": 139
+          }
+        ]
+      },
+      {
+        "horarioId": "0418",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 80,
+            "fin": 84
+          }
+        ]
+      },
+      {
+        "horarioId": "0419",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0420",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 20,
+            "fin": 24
+          }
+        ]
+      },
+      {
+        "horarioId": "0421",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 85,
+            "fin": 89
+          }
+        ]
+      },
+      {
+        "horarioId": "0422",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 145,
+            "fin": 149
+          }
+        ]
+      },
+      {
+        "horarioId": "0423",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 115,
+            "fin": 119
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IAS01",
+    "title": "TALLER DE INNOVACIÓN EN INGENIERÍA AMBIENTAL",
+    "creditos": 2.0,
+    "horarios": []
+  },
+  {
+    "id": "1IAS02",
+    "title": "TALLER DE INGENIERÍA AMBIENTAL Y SOSTENIBLE",
+    "creditos": 1.0,
+    "horarios": []
+  },
+  {
+    "id": "1IAS03",
+    "title": "BIOLOGÍA FUNCIONAL",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "A471",
+        "profesor": "Cosio, E",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IAS04",
+    "title": "ECOLOGÍA Y BIODIVERSIDAD",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "A471",
+        "profesor": "Gallice, GSalinas, N",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 70
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IEE04",
+    "title": "DISEÑO DIGITAL",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "0441",
+        "profesor": "Raffo, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 66,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0442",
+        "profesor": "Valega, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 142,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0443",
+        "profesor": "Silva, G",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 84,
+            "fin": 89
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IEE05",
+    "title": "INNOVACIÓN ELECTRÓNICA",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0442",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 68,
+            "fin": 76
+          }
+        ]
+      },
+      {
+        "horarioId": "0443",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 124,
+            "fin": 132
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IEE08",
+    "title": "CIRCUITOS ELÉCTRICOS",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "B401",
+        "profesor": "Calienes, W",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 114,
+            "fin": 118
+          }
+        ]
+      },
+      {
+        "horarioId": "B402",
+        "profesor": "Raymi, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 114,
+            "fin": 118
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IND62",
+    "title": "TALLER DE INGENIERÍA INDUSTRIAL",
+    "creditos": 2.5,
+    "horarios": [
+      {
+        "horarioId": "I101",
+        "profesor": "Paz, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 128,
+            "fin": 130
+          }
+        ]
+      },
+      {
+        "horarioId": "I102",
+        "profesor": "Rau, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 126,
+            "fin": 128
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IND63",
+    "title": "SEGURIDAD Y ERGONOMÍA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0381",
+        "profesor": "Corrales, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 12
+          }
+        ]
+      },
+      {
+        "horarioId": "0382",
+        "profesor": "Aragon, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 66,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0383",
+        "profesor": "Aragon, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IND64",
+    "title": "MECÁNICA PARA INGENIEROS",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0371",
+        "profesor": "Gomez, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 142,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0372",
+        "profesor": "Pujada, E",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 142,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0373",
+        "profesor": "Franco, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 142,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0374",
+        "profesor": "Castillo, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 142,
+            "fin": 144
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1IND65",
+    "title": "ESTUDIO DEL TRABAJO",
+    "creditos": 4.0,
+    "horarios": [
+      {
+        "horarioId": "0477",
+        "profesor": "Corrales, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          }
+        ]
+      },
+      {
+        "horarioId": "0478",
+        "profesor": "Zelada, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          }
+        ]
+      },
+      {
+        "horarioId": "0479",
+        "profesor": "Ormachea, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 14,
+            "fin": 20
+          }
+        ]
+      },
+      {
+        "horarioId": "0480",
+        "profesor": "Corrales, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 66
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1INF01",
+    "title": "FUNDAMENTOS DE PROGRAMACIÓN",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "B301",
+        "profesor": "Zarate, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0385",
+        "profesor": "Vargas, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0386",
+        "profesor": "Allasi, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0387",
+        "profesor": "Ponce, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0388",
+        "profesor": "Latorraca, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0389",
+        "profesor": "Goicochea, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0390",
+        "profesor": "Vargas, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0391",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0392",
+        "profesor": "Latorraca, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0393",
+        "profesor": "Goicochea, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0394",
+        "profesor": "Allasi, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0395",
+        "profesor": "Allasi, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0396",
+        "profesor": "Muroya, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0397",
+        "profesor": "Melgar, H",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0398",
+        "profesor": "Latorraca, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ING02",
+    "title": "DIBUJO EN INGENIERÍA",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0221",
+        "profesor": "Ramirez, V",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0222",
+        "profesor": "Rodriguez, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0223",
+        "profesor": "Caro, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0224",
+        "profesor": "Cortegana, H",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0225",
+        "profesor": "Rojas, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0226",
+        "profesor": "Rodriguez, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 85,
+            "fin": 89
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0227",
+        "profesor": "Rojas, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 85,
+            "fin": 89
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0228",
+        "profesor": "Altuna, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 85,
+            "fin": 89
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0229",
+        "profesor": "Castillo, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 85,
+            "fin": 89
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0230",
+        "profesor": "Sicha, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 85,
+            "fin": 89
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0231",
+        "profesor": "Rodriguez, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0232",
+        "profesor": "Altuna, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0233",
+        "profesor": "Cortegana, H",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0234",
+        "profesor": "Sicha, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      },
+      {
+        "horarioId": "0235",
+        "profesor": "Quevedo, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          },
+          {
+            "tipo": "DIR",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ING03",
+    "title": "DISEÑO INDUSTRIAL",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "B201",
+        "profesor": "Casado, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 18,
+            "fin": 20
+          }
+        ]
+      },
+      {
+        "horarioId": "B202",
+        "profesor": "Romero, E",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 18,
+            "fin": 20
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1ING16",
+    "title": "RETOS DE INGENIERÍA",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "A101",
+        "profesor": "Cárdenas, FNakama, G",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 36,
+            "fin": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1LIN15",
+    "title": "COMUNICACIÓN ACADÉMICA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0101",
+        "profesor": "Lovon, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "A101",
+        "profesor": "Madalengoitia, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 62,
+            "fin": 66
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "I101",
+        "profesor": "Velasquez, H",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0102",
+        "profesor": "Renwick, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "I102",
+        "profesor": "Perez, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0103",
+        "profesor": "Riqueros, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0104",
+        "profesor": "Velasquez, H",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0105",
+        "profesor": "Renwick, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0106",
+        "profesor": "Lovon, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 10
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 64,
+            "fin": 68
+          }
+        ]
+      },
+      {
+        "horarioId": "0107",
+        "profesor": "Renwick, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0108",
+        "profesor": "Hernandez, U",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1LIN16",
+    "title": "TRABAJO ACADÉMICO",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0201",
+        "profesor": "Rodriguez, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 72,
+            "fin": 76
+          }
+        ]
+      },
+      {
+        "horarioId": "0202",
+        "profesor": "Sarmiento, T",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0203",
+        "profesor": "Cordova, P",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0204",
+        "profesor": "Cordova, P",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0205",
+        "profesor": "Montañez, S",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0206",
+        "profesor": "Fernandez, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0207",
+        "profesor": "Sarmiento, T",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0208",
+        "profesor": "Hernandez, U",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 160,
+            "fin": 164
+          }
+        ]
+      },
+      {
+        "horarioId": "0209",
+        "profesor": "Fernandez, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "0210",
+        "profesor": "Rodriguez, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "0211",
+        "profesor": "Fernandez, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 72,
+            "fin": 76
+          }
+        ]
+      },
+      {
+        "horarioId": "0212",
+        "profesor": "Hernandez, U",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0213",
+        "profesor": "Cordova, P",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0214",
+        "profesor": "Montañez, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0215",
+        "profesor": "Sarmiento, T",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          }
+        ]
+      },
+      {
+        "horarioId": "0216",
+        "profesor": "Tavera, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 124,
+            "fin": 128
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0217",
+        "profesor": "Tavera, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0218",
+        "profesor": "Cordova, P",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0219",
+        "profesor": "Fernandez, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          }
+        ]
+      },
+      {
+        "horarioId": "0220",
+        "profesor": "Montañez, S",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT04",
+    "title": "ÁLGEBRA MATRICIAL Y GEOMETRÍA ANALÍTICA",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0101",
+        "profesor": "Mendoza, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "A101",
+        "profesor": "Flores, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "I101",
+        "profesor": "Figueroa, C",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0102",
+        "profesor": "Barrantes, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "I102",
+        "profesor": "Luna, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0103",
+        "profesor": "Jimenez, F",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0104",
+        "profesor": "Barrantes, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0105",
+        "profesor": "Yucra, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0106",
+        "profesor": "Diaz, I",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0107",
+        "profesor": "Advincula, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      },
+      {
+        "horarioId": "0108",
+        "profesor": "Diaz, W",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      },
+      {
+        "horarioId": "0109",
+        "profesor": "Henostroza, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "0110",
+        "profesor": "Escudero, P",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "0111",
+        "profesor": "Flores, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0112",
+        "profesor": "Hernandez, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0113",
+        "profesor": "Flores, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0114",
+        "profesor": "Hernandez, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 160,
+            "fin": 164
+          }
+        ]
+      },
+      {
+        "horarioId": "0115",
+        "profesor": "Villogas, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0116",
+        "profesor": "Simon, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT05",
+    "title": "FUNDAMENTOS DE CÁLCULO",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0101",
+        "profesor": "Agapito, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "A101",
+        "profesor": "Mendoza, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "I101",
+        "profesor": "Flores, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0102",
+        "profesor": "Puchuri, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "I102",
+        "profesor": "Sanchez, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0103",
+        "profesor": "Aguirre, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0104",
+        "profesor": "Tapia, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0105",
+        "profesor": "Farfan, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "0106",
+        "profesor": "Agapito, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "0107",
+        "profesor": "Ramos, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 122,
+            "fin": 126
+          }
+        ]
+      },
+      {
+        "horarioId": "0108",
+        "profesor": "Diaz, W",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 122,
+            "fin": 126
+          }
+        ]
+      },
+      {
+        "horarioId": "0109",
+        "profesor": "Diaz, I",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 160,
+            "fin": 164
+          }
+        ]
+      },
+      {
+        "horarioId": "0110",
+        "profesor": "Flores, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0111",
+        "profesor": "Bances, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0112",
+        "profesor": "Villogas, E",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0113",
+        "profesor": "Mendoza, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0114",
+        "profesor": "Flores, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0115",
+        "profesor": "Bances, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          }
+        ]
+      },
+      {
+        "horarioId": "0116",
+        "profesor": "Gonzalez, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0117",
+        "profesor": "Jimenez, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT06",
+    "title": "CÁLCULO DIFERENCIAL",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0201",
+        "profesor": "Metzger, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "B201",
+        "profesor": "Crisostomo, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          }
+        ]
+      },
+      {
+        "horarioId": "0202",
+        "profesor": "Chirre, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          }
+        ]
+      },
+      {
+        "horarioId": "B202",
+        "profesor": "Torres, V",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          }
+        ]
+      },
+      {
+        "horarioId": "0203",
+        "profesor": "Simon, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      },
+      {
+        "horarioId": "0204",
+        "profesor": "Farfan, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 160,
+            "fin": 164
+          }
+        ]
+      },
+      {
+        "horarioId": "0205",
+        "profesor": "Henostroza, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0206",
+        "profesor": "Rabanal, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0207",
+        "profesor": "Arce, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0208",
+        "profesor": "Sanchez, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0209",
+        "profesor": "Crisostomo, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0210",
+        "profesor": "Rabanal, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0211",
+        "profesor": "Ramos, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 160,
+            "fin": 164
+          }
+        ]
+      },
+      {
+        "horarioId": "0212",
+        "profesor": "Quispe, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 150,
+            "fin": 154
+          }
+        ]
+      },
+      {
+        "horarioId": "0213",
+        "profesor": "Tapia, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "0214",
+        "profesor": "Beltran, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 158,
+            "fin": 162
+          }
+        ]
+      },
+      {
+        "horarioId": "0215",
+        "profesor": "Gaita, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0216",
+        "profesor": "Villogas, E",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0217",
+        "profesor": "Sanchez, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 114,
+            "fin": 118
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT07",
+    "title": "CÁLCULO INTEGRAL",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0301",
+        "profesor": "Sanchez, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "B301",
+        "profesor": "Sanchez, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0302",
+        "profesor": "Beltran, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "B302",
+        "profesor": "Simon, M",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0303",
+        "profesor": "Chau, N",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          }
+        ]
+      },
+      {
+        "horarioId": "0304",
+        "profesor": "Henostroza, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0305",
+        "profesor": "Gaita, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0306",
+        "profesor": "Chau, N",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          }
+        ]
+      },
+      {
+        "horarioId": "0307",
+        "profesor": "Bances, R",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      },
+      {
+        "horarioId": "0308",
+        "profesor": "Saravia, N",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 96
+          }
+        ]
+      },
+      {
+        "horarioId": "0309",
+        "profesor": "Saravia, N",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0310",
+        "profesor": "Henostroza, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT08",
+    "title": "CÁLCULO EN VARIAS VARIABLES",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0301",
+        "profesor": "Cuadros, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0302",
+        "profesor": "Chau, N",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0303",
+        "profesor": "Castillo, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0304",
+        "profesor": "Lope, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0305",
+        "profesor": "Abanto, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      },
+      {
+        "horarioId": "0306",
+        "profesor": "Figueroa, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 164,
+            "fin": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT09",
+    "title": "CÁLCULO APLICADO",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0401",
+        "profesor": "Chamorro, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0402",
+        "profesor": "Cuadros, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0403",
+        "profesor": "Montealegre, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0404",
+        "profesor": "Crisostomo, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0405",
+        "profesor": "Tamara, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0406",
+        "profesor": "Bances, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0407",
+        "profesor": "Fernandez, P",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0408",
+        "profesor": "Chau, N",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 72,
+            "fin": 76
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 132,
+            "fin": 136
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0409",
+        "profesor": "Lope, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0410",
+        "profesor": "Tapia, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 124
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0411",
+        "profesor": "Neciosup, H",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0412",
+        "profesor": "Beltran, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 106,
+            "fin": 110
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0413",
+        "profesor": "Beltran, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      },
+      {
+        "horarioId": "0414",
+        "profesor": "Rabanal, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 168,
+            "fin": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT10",
+    "title": "FUNDAMENTOS DE ANÁLISIS 1",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0291",
+        "profesor": "Zapata, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 140,
+            "fin": 144
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT12",
+    "title": "FUNDAMENTOS DE ANÁLISIS 2",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0391",
+        "profesor": "Zapata, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 50,
+            "fin": 54
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MAT23",
+    "title": "CÁLCULO VECTORIAL",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0421",
+        "profesor": "Tamara, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 4
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 34
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      },
+      {
+        "horarioId": "0422",
+        "profesor": "Montealegre, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      },
+      {
+        "horarioId": "0423",
+        "profesor": "Montealegre, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 38,
+            "fin": 42
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      },
+      {
+        "horarioId": "0424",
+        "profesor": "Torres, V",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 42,
+            "fin": 46
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 110,
+            "fin": 114
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1MIN02",
+    "title": "ELEMENTOS DE GEOLOGÍA Y MINERÍA",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0399",
+        "profesor": "Benites, DCabello, O",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1PSI02",
+    "title": "MOTIVACIÓN Y LIDERAZGO PERSONAL",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0291",
+        "profesor": "Maravi, I",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 2,
+            "fin": 4
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 4,
+            "fin": 8
+          }
+        ]
+      },
+      {
+        "horarioId": "0292",
+        "profesor": "Mejia, G",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 38,
+            "fin": 42
+          }
+        ]
+      },
+      {
+        "horarioId": "0293",
+        "profesor": "Fidhel, G",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 50,
+            "fin": 52
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 52,
+            "fin": 56
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1PSI03",
+    "title": "DESARROLLO DE HABILIDADES PERSONALES",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0241",
+        "profesor": "Lujan, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 66,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 68,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0242",
+        "profesor": "Vera, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 160,
+            "fin": 162
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 162,
+            "fin": 166
+          }
+        ]
+      },
+      {
+        "horarioId": "0243",
+        "profesor": "Vera, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 156
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1PSI04",
+    "title": "PSICOLOGÍA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0391",
+        "profesor": "Yamamoto, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 38,
+            "fin": 42
+          }
+        ]
+      },
+      {
+        "horarioId": "0392",
+        "profesor": "Yamamoto, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 68,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0393",
+        "profesor": "Mejia, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 10
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          }
+        ]
+      },
+      {
+        "horarioId": "0394",
+        "profesor": "Bendezu, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "0395",
+        "profesor": "De La Puente, C",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 60,
+            "fin": 64
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0396",
+        "profesor": "De La Puente, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI01",
+    "title": "QUÍMICA 1",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0101",
+        "profesor": "Montenegro, F",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "A101",
+        "profesor": "Hernandez, Y",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 134,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0102",
+        "profesor": "Saldaña, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 30,
+            "fin": 36
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "0103",
+        "profesor": "Cordova, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "0104",
+        "profesor": "Manrique, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "0105",
+        "profesor": "Montenegro, F",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 96
+          }
+        ]
+      },
+      {
+        "horarioId": "0106",
+        "profesor": "Saldaña, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 96
+          }
+        ]
+      },
+      {
+        "horarioId": "0107",
+        "profesor": "Murga, C",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 126,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0108",
+        "profesor": "Hernandez, Y",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 126,
+            "fin": 132
+          }
+        ]
+      },
+      {
+        "horarioId": "0109",
+        "profesor": "Montenegro, F",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 126
+          }
+        ]
+      },
+      {
+        "horarioId": "0110",
+        "profesor": "Teves, B",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 120,
+            "fin": 126
+          }
+        ]
+      },
+      {
+        "horarioId": "0111",
+        "profesor": "Murga, C",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0112",
+        "profesor": "Ruiz, G",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "0113",
+        "profesor": "Teves, B",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "0114",
+        "profesor": "Saldaña, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 0,
+            "fin": 6
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "0115",
+        "profesor": "Ruiz, G",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 126,
+            "fin": 132
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI02",
+    "title": "LABORATORIO DE QUÍMICA 1",
+    "creditos": 0.75,
+    "horarios": [
+      {
+        "horarioId": "0101",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 1,
+            "fin": 7
+          }
+        ]
+      },
+      {
+        "horarioId": "A101",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 91,
+            "fin": 97
+          }
+        ]
+      },
+      {
+        "horarioId": "0102",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 1,
+            "fin": 7
+          }
+        ]
+      },
+      {
+        "horarioId": "0103",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 31,
+            "fin": 37
+          }
+        ]
+      },
+      {
+        "horarioId": "0104",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 31,
+            "fin": 37
+          }
+        ]
+      },
+      {
+        "horarioId": "0105",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 121,
+            "fin": 127
+          }
+        ]
+      },
+      {
+        "horarioId": "0106",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 121,
+            "fin": 127
+          }
+        ]
+      },
+      {
+        "horarioId": "0107",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 8,
+            "fin": 14
+          }
+        ]
+      },
+      {
+        "horarioId": "0108",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 8,
+            "fin": 14
+          }
+        ]
+      },
+      {
+        "horarioId": "0109",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 134,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0110",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 134,
+            "fin": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI03",
+    "title": "QUÍMICA 2",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0271",
+        "profesor": "Morales, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 42
+          }
+        ]
+      },
+      {
+        "horarioId": "0272",
+        "profesor": "Morales, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 134,
+            "fin": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI04",
+    "title": "LABORATORIO DE QUÍMICA 2",
+    "creditos": 0.75,
+    "horarios": [
+      {
+        "horarioId": "0271",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 68,
+            "fin": 74
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI06",
+    "title": "QUÍMICA EXPERIMENTAL",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0399",
+        "profesor": "Galarreta, B",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI08",
+    "title": "ESTRUCTURA Y VALENCIA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "0499",
+        "profesor": "Ortega, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 40
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 92,
+            "fin": 94
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI09",
+    "title": "LABORATORIO DE QUÍMICA EXPERIMENTAL",
+    "creditos": 1.5,
+    "horarios": [
+      {
+        "horarioId": "0499",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 64,
+            "fin": 70
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI13",
+    "title": "QUÍMICA EXPERIMENTAL PARA INGENIERÍA AMBIENTAL",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "A371",
+        "profesor": "Gamboa, N",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI39",
+    "title": "BIOLOGÍA GENERAL",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "A371",
+        "profesor": "Cosio, ESalinas, N",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 32,
+            "fin": 36
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1QUI50",
+    "title": "FISICOQUÍMICA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "H498",
+        "profesor": "Kong, MSun, M",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 44,
+            "fin": 52
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 96,
+            "fin": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1SOC01",
+    "title": "SOCIOLOGÍA",
+    "creditos": 3.0,
+    "horarios": [
+      {
+        "horarioId": "A101",
+        "profesor": "Rodriguez, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 166,
+            "fin": 170
+          }
+        ]
+      },
+      {
+        "horarioId": "0451",
+        "profesor": "Del Rio, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0452",
+        "profesor": "Bobadilla, P",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 162,
+            "fin": 166
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1TEL01",
+    "title": "TECNOLOGÍAS DE LA INFORMACIÓN Y COMUNICACIONES",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0378",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 92,
+            "fin": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1TEO01",
+    "title": "SER HUMANO Y CRISTIANO EN EL SIGLO XXI",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0451",
+        "profesor": "Iberico, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 36,
+            "fin": 40
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 70
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0452",
+        "profesor": "Espinoza, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 40,
+            "fin": 44
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 98,
+            "fin": 100
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1TEO02",
+    "title": "FE EN DIÁLOGO CON EL MUNDO CONTEMPORÁNEO",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0461",
+        "profesor": "Alarcon, E",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 82
+          }
+        ]
+      },
+      {
+        "horarioId": "0462",
+        "profesor": "Castro, J",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 12,
+            "fin": 16
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1TEO03",
+    "title": "REVELACIÓN DE DIOS EN LA HISTORIA",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0471",
+        "profesor": "Aguero, M",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 74
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      },
+      {
+        "horarioId": "0472",
+        "profesor": "Castillo, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 22,
+            "fin": 28
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 76,
+            "fin": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CDR121",
+    "title": "CIENCIA, ÉTICA Y CRISTIANISMO",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "0261",
+        "profesor": "Caviglia, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 46,
+            "fin": 50
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 106,
+            "fin": 108
+          }
+        ]
+      },
+      {
+        "horarioId": "0262",
+        "profesor": "Caviglia, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 10
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 80,
+            "fin": 84
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 130
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CDR123",
+    "title": "PENSAMIENTO CRISTIANO Y REALIDAD SOCIAL",
+    "creditos": 3.5,
+    "horarios": [
+      {
+        "horarioId": "B201",
+        "profesor": "Piccone, C",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 20,
+            "fin": 24
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 100
+          }
+        ]
+      },
+      {
+        "horarioId": "B202",
+        "profesor": "Rabi, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 22,
+            "fin": 28
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 50,
+            "fin": 54
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CIV156",
+    "title": "CAMPO DE TOPOGRAFÍA",
+    "creditos": 1.5,
+    "horarios": [
+      {
+        "horarioId": "0456",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 134,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0457",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 14,
+            "fin": 20
+          }
+        ]
+      },
+      {
+        "horarioId": "0458",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 152,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0459",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 158,
+            "fin": 164
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EST145",
+    "title": "ESTADÍSTICA",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0411",
+        "profesor": "Sal Y Rosas, V",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0412",
+        "profesor": "De La Cruz, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0413",
+        "profesor": "Neciosup, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 132,
+            "fin": 136
+          }
+        ]
+      },
+      {
+        "horarioId": "0414",
+        "profesor": "Sal Y Rosas, V",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      },
+      {
+        "horarioId": "0415",
+        "profesor": "De La Cruz, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 16,
+            "fin": 20
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 76,
+            "fin": 80
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 136,
+            "fin": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "IEE148",
+    "title": "CIRCUITOS ELÉCTRICOS 1",
+    "creditos": 4.0,
+    "horarios": [
+      {
+        "horarioId": "0445",
+        "profesor": "Paredes, K",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "INF134",
+    "title": "ESTRUCTURAS DISCRETAS",
+    "creditos": 4.5,
+    "horarios": [
+      {
+        "horarioId": "0331",
+        "profesor": "Muroya, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 110,
+            "fin": 114
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 156,
+            "fin": 160
+          }
+        ]
+      },
+      {
+        "horarioId": "0332",
+        "profesor": "Bello, A",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          }
+        ]
+      },
+      {
+        "horarioId": "0333",
+        "profesor": "Muroya, L",
+        "eventos": [
+          {
+            "tipo": "PRA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 90,
+            "fin": 94
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 152,
+            "fin": 156
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "INF144",
+    "title": "TÉCNICAS DE PROGRAMACIÓN",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "0431",
+        "profesor": "Guanira, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 10
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      },
+      {
+        "horarioId": "0432",
+        "profesor": "Vargas, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 6,
+            "fin": 10
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      },
+      {
+        "horarioId": "0433",
+        "profesor": "Gomez, H",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 110,
+            "fin": 114
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 154,
+            "fin": 158
+          }
+        ]
+      },
+      {
+        "horarioId": "0434",
+        "profesor": "Vargas, S",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 10,
+            "fin": 14
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          }
+        ]
+      },
+      {
+        "horarioId": "0435",
+        "profesor": "Hirsh, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 10,
+            "fin": 14
+          },
+          {
+            "tipo": "LAB",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ING135",
+    "title": "ESTÁTICA",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "0355",
+        "profesor": "Rubiños, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 4,
+            "fin": 8
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 64,
+            "fin": 68
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0356",
+        "profesor": "Rubiños, A",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0357",
+        "profesor": "Ramirez, J",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 24,
+            "fin": 28
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 84,
+            "fin": 88
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0358",
+        "profesor": "Izquierdo, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0359",
+        "profesor": "Huapaya, C",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 68,
+            "fin": 72
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0360",
+        "profesor": "Lipa, L",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 124,
+            "fin": 128
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ING693",
+    "title": "MECÁNICA PARA INGENIEROS 1",
+    "creditos": 5.0,
+    "horarios": [
+      {
+        "horarioId": "0371",
+        "profesor": "Lavayen, D",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 8,
+            "fin": 12
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 128,
+            "fin": 132
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0372",
+        "profesor": "Franco, R",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      },
+      {
+        "horarioId": "0373",
+        "profesor": "Yepez, H",
+        "eventos": [
+          {
+            "tipo": "CLA",
+            "inicio": 34,
+            "fin": 38
+          },
+          {
+            "tipo": "CLA",
+            "inicio": 94,
+            "fin": 98
+          },
+          {
+            "tipo": "PRA",
+            "inicio": 144,
+            "fin": 148
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MEC146",
+    "title": "TALLER MECÁNICO 1",
+    "creditos": 2.0,
+    "horarios": [
+      {
+        "horarioId": "0451",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 12,
+            "fin": 20
+          }
+        ]
+      },
+      {
+        "horarioId": "0452",
+        "profesor": "",
+        "eventos": [
+          {
+            "tipo": "LAB",
+            "inicio": 72,
+            "fin": 80
+          }
+        ]
+      }
+    ]
+  }
+]

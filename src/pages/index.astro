@@ -1,21 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import CalendarNInputs from '../components/CalendarNInputs.jsx';
-import { data, cursos } from '../data/data.js'
-import { custom } from 'astro:schema';
+import cursos from '../data/data.json'
 import IndexReact from '../components/IndexReact.jsx';
 import Nav from '../components/Nav.astro';
 import Hero from '../components/Hero.astro';
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<!-- <Welcome /> -->
-	<div class="h-screen flex flex-col">
+	<div class="h-full flex flex-col">
 		<Nav type='advanced'/>
 		<Hero type='advanced'/>
 		<IndexReact cursos={cursos} client:load />
 	</div>
-	<!-- <CalendarNInputs cursos={cursos} client:load/> -->
 </Layout>
