@@ -1,162 +1,58 @@
-// DATA
-const cursos = [
-  {
-    id: "CDR121",
-    title: "Pensamiento Cristiano",
-    creditos: 4,
-    horarios: [
-      {
-        horarioId: 261,
-        profesor: "Chang, E.",
-        eventos: [
-          { tipo: "CLA", inicio: 1, fin: 4 },
-          { tipo: "CLA", inicio: 40, fin: 44 }
-        ]
-      },
-      {
-        horarioId: 262,
-        profesor: "Chang, E.",
-        eventos: [
-          { tipo: "CLA", inicio: 32, fin: 33 },
-          { tipo: "CLA", inicio: 50, fin: 54 }
-        ]
-      }
-    ]
-  },
-  {
-    id: "CDR123",
-    title: "Pensamiento Cristiano de Cristo",
-    creditos: 12,
-    horarios: [
-      {
-        horarioId: 363,
-        profesor: "Martínez, J.",
-        eventos: [
-          { tipo: "CLA", inicio: 10, fin: 14 },
-          { tipo: "CLA", inicio: 16, fin: 20 }
-        ]
-      }
-    ]
-  },
-  {
-    id: "CDR125",
-    title: "Fundamentos del Pensamiento Cristiano",
-    creditos: 8,
-    horarios: [
-      {
-        horarioId: 464,
-        profesor: "López, M.",
-        eventos: [
-          { tipo: "CLA", inicio: 50, fin: 54 },
-          { tipo: "CLA", inicio: 60, fin: 64 }
-        ]
-      },
-      {
-        horarioId: 465,
-        profesor: "López, M.",
-        eventos: [
-          { tipo: "CLA", inicio: 78, fin: 79 },
-          { tipo: "CLA", inicio: 160, fin: 170 }
-        ]
-      }
-    ]
-  },
-  {
-    id: "FIL201",
-    title: "Introducción a la Filosofía",
-    creditos: 6,
-    horarios: [
-      {
-        horarioId: 501,
-        profesor: "García, A.",
-        eventos: [
-          { tipo: "CLA", inicio: 5, fin: 8 },
-          { tipo: "CLA", inicio: 25, fin: 28 }
-        ]
-      }
-    ]
-  },
-  {
-    id: "TEO310",
-    title: "Teología Sistemática",
-    creditos: 10,
-    horarios: [
-      {
-        horarioId: 601,
-        profesor: "Ramírez, C.",
-        eventos: [
-          { tipo: "CLA", inicio: 90, fin: 94 },
-          { tipo: "CLA", inicio: 120, fin: 124 }
-        ]
-      },
-      {
-        horarioId: 602,
-        profesor: "Ramírez, C.",
-        eventos: [
-          { tipo: "CLA", inicio: 140, fin: 144 }
-        ]
-      }
-    ]
-  },
-  {
-    id: "HIS150",
-    title: "Historia del Cristianismo",
-    creditos: 7,
-    horarios: [
-      {
-        horarioId: 701,
-        profesor: "Pérez, L.",
-        eventos: [
-          { tipo: "CLA", inicio: 200, fin: 204 },
-          { tipo: "CLA", inicio: 210, fin: 214 }
-        ]
-      }
-    ]
-  }
-];
+import cursos from './data.json';
+export { cursos };
 
-//INPUT SELECTION OF DATAA 
-const cursoSelec1 = {
-    id: "CDR121",
-    horarioId: [261, 262]
-}
+//From data.js
+export function formatHourEvent(inicio, fin) {
+  const dias = ["Lun", "Mar", "Mie", "Jue", "Vie", "Sab"];
+  const HORA_INICIO_DIA = 7;
 
-const cursoSelec2 = {
-    id: "CDR123",
-    horarioId: [363]
-}
+  const dia = dias[Math.trunc(inicio / 30)];
 
-const cursoSelec3 = {
-    id: "CDR125",
-    horarioId: [464, 465]
-}
+  const formatHora = (valor) => {
+    const bloques = valor % 30;
+    const horas = HORA_INICIO_DIA + Math.trunc(bloques / 2);
+    const minutos = bloques % 2 === 0 ? "00" : "30";
 
-const cursoSelec4 = {
-    id: "none",
-    horarioId: [0]
-}
+    return `${String(horas).padStart(2, "0")}:${minutos}`;
+  };
 
-const cursoSelec5 = {
-    id: "none",
-    horarioId: [0]
+  return {
+    dia,
+    inicioFormat: formatHora(inicio),
+    finFormat: formatHora(fin),
+  };
 }
 
 
+export function findCourse(id) {
+  return cursos.find(curso => curso.id === id)
+}
+
+export function findHorarioData(cursoId, horarioId) {
+  const curso = findCourse(cursoId);
+  if (!curso) return null;
+  return curso.horarios.find(horario => horario.horarioId === horarioId) || null;
+}
 
 
-const buscarEventos = ( curso, horario ) => {
-    if(curso == "none") {
-        return []
-    }
-    const cursoSelec = cursos.find(c => c.id == curso)
+//End data.js
+
+
+const buscarEventos = (curso, horario) => {
+    if (curso === "none") return []
+
+    const cursoSelec = cursos.find(c => c.id === curso)
+    if (!cursoSelec) return []  
+
     const horarioSelec = cursoSelec.horarios.find(h => h.horarioId == horario)
-    const eventos = horarioSelec.eventos.map(e => {
-        return ( {...e, horarioId: horario, curso: cursoSelec.id})
-    })
+    if (!horarioSelec) return [] 
 
-    return eventos
+    return horarioSelec.eventos.map(e => ({
+        ...e,
+        horarioId: horario,
+        curso: cursoSelec.id
+    }))
 }
-
 
 const evaluarCoinidencia = (eventos) => {
     let sonCompatibles = true
@@ -198,7 +94,7 @@ const formatearEventos = (eventos, indice, outArr) => {
         const startMinutes = startHourNumber % 2 === 0 ? 0 : 30
         const endMinutes = endHourNumber % 2 === 0 ? 0 : 30
 
-        const sumaDias = (indice) * 7
+        const sumaDias = 0  // (indice) * 7
         const baseStartDate = new Date(
             2024,
             0,
@@ -219,11 +115,196 @@ const formatearEventos = (eventos, indice, outArr) => {
         
         outArr[indice].push({
             title: e.curso,
+            type: e.tipo,
+            horarioId: e.horarioId,
             start: toLocalISOString(baseStartDate),
             end: toLocalISOString(baseEndDate)
         })
     })
 }
+
+
+const combinar = ( arr, indice, acumulador, outArr, state) => {
+
+    if(evaluarCoinidencia(acumulador) == false) {
+        return
+    }
+
+    if(indice == arr.length){
+        console.log("acumulador", acumulador)
+        formatearEventos(acumulador, state.contadorCompatibles, outArr);
+        state.contadorCompatibles += 1
+        return
+    }
+
+    arr[indice].horarioId.forEach((horario) => {
+        const eventos = buscarEventos(arr[indice].id, horario)
+        const nuevoAcumulador = acumulador.concat(eventos)
+        combinar(arr, indice + 1, nuevoAcumulador, outArr, state)
+    })
+}
+
+export const generarCombinaciones = (arrCursosSelec) => {
+    const outputArray = []
+    let contadorCompatibles = 0
+    combinar(arrCursosSelec, 0, [], outputArray, {contadorCompatibles: 0})
+    return outputArray
+}
+
+
+export const findHorario = (id, horario) => {
+  const curso = cursos.find(c => c.id === id)
+  return curso.horarios.find(h => h.horarioId == horario)
+}
+
+
+
+
+
+// DATA
+// const cursos = [
+//   {
+//     id: "CDR121",
+//     title: "Pensamiento Cristiano",
+//     creditos: 4,
+//     horarios: [
+//       {
+//         horarioId: 261,
+//         profesor: "Chang, E.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 1, fin: 4 },
+//           { tipo: "CLA", inicio: 40, fin: 44 }
+//         ]
+//       },
+//       {
+//         horarioId: 262,
+//         profesor: "Chang, E.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 32, fin: 33 },
+//           { tipo: "CLA", inicio: 50, fin: 54 }
+//         ]
+//       }
+//     ]
+//   },
+//   {
+//     id: "CDR123",
+//     title: "Pensamiento Cristiano de Cristo",
+//     creditos: 12,
+//     horarios: [
+//       {
+//         horarioId: 363,
+//         profesor: "Martínez, J.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 10, fin: 14 },
+//           { tipo: "CLA", inicio: 16, fin: 20 }
+//         ]
+//       }
+//     ]
+//   },
+//   {
+//     id: "CDR125",
+//     title: "Fundamentos del Pensamiento Cristiano",
+//     creditos: 8,
+//     horarios: [
+//       {
+//         horarioId: 464,
+//         profesor: "López, M.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 50, fin: 54 },
+//           { tipo: "CLA", inicio: 60, fin: 64 }
+//         ]
+//       },
+//       {
+//         horarioId: 465,
+//         profesor: "López, M.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 78, fin: 79 },
+//           { tipo: "CLA", inicio: 160, fin: 170 }
+//         ]
+//       }
+//     ]
+//   },
+//   {
+//     id: "FIL201",
+//     title: "Introducción a la Filosofía",
+//     creditos: 6,
+//     horarios: [
+//       {
+//         horarioId: 501,
+//         profesor: "García, A.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 5, fin: 8 },
+//           { tipo: "CLA", inicio: 25, fin: 28 }
+//         ]
+//       }
+//     ]
+//   },
+//   {
+//     id: "TEO310",
+//     title: "Teología Sistemática",
+//     creditos: 10,
+//     horarios: [
+//       {
+//         horarioId: 601,
+//         profesor: "Ramírez, C.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 90, fin: 94 },
+//           { tipo: "CLA", inicio: 120, fin: 124 }
+//         ]
+//       },
+//       {
+//         horarioId: 602,
+//         profesor: "Ramírez, C.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 140, fin: 144 }
+//         ]
+//       }
+//     ]
+//   },
+//   {
+//     id: "HIS150",
+//     title: "Historia del Cristianismo",
+//     creditos: 7,
+//     horarios: [
+//       {
+//         horarioId: 701,
+//         profesor: "Pérez, L.",
+//         eventos: [
+//           { tipo: "CLA", inicio: 200, fin: 204 },
+//           { tipo: "CLA", inicio: 210, fin: 214 }
+//         ]
+//       }
+//     ]
+//   }
+// ];
+
+
+//INPUT SELECTION OF DATAA 
+// const cursoSelec1 = {
+//     id: "CDR121",
+//     horarioId: [261, 262]
+// }
+
+// const cursoSelec2 = {
+//     id: "CDR123",
+//     horarioId: [363]
+// }
+
+// const cursoSelec3 = {
+//     id: "CDR125",
+//     horarioId: [464, 465]
+// }
+
+// const cursoSelec4 = {
+//     id: "none",
+//     horarioId: [0]
+// }
+
+// const cursoSelec5 = {
+//     id: "none",
+//     horarioId: [0]
+// }
+
 
 
 
@@ -258,57 +339,27 @@ const formatearEventos = (eventos, indice, outArr) => {
 // console.log(eventosCompatiblesFormat)
 
 
-const arrCursosSelec = []
-arrCursosSelec.push(cursoSelec1)
-arrCursosSelec.push(cursoSelec2)
-arrCursosSelec.push(cursoSelec3)
-arrCursosSelec.push(cursoSelec4)
-arrCursosSelec.push(cursoSelec5)
+// const arrCursosSelec = []
+// arrCursosSelec.push(cursoSelec1)
+// arrCursosSelec.push(cursoSelec2)
+// arrCursosSelec.push(cursoSelec3)
+// arrCursosSelec.push(cursoSelec4)
+// arrCursosSelec.push(cursoSelec5)
 
 
-console.log(arrCursosSelec)
+// console.log(arrCursosSelec)
 
 
-const eventosCompatiblesFormat = []
-let contadorCompatibles = 0
+// const eventosCompatiblesFormat = []
+// let contadorCompatibles = 0
 
-
-
-const combinar = ( arr, indice, acumulador, outArr, state) => {
-
-    if(evaluarCoinidencia(acumulador) == false) {
-        return
-    }
-
-    if(indice == arr.length){
-        formatearEventos(acumulador, state.contadorCompatibles, outArr);
-        state.contadorCompatibles += 1
-        return
-    }
-
-    arr[indice].horarioId.forEach((horario) => {
-        const eventos = buscarEventos(arr[indice].id, horario)
-        const nuevoAcumulador = acumulador.concat(eventos)
-        combinar(arr, indice + 1, nuevoAcumulador, outArr, state)
-    })
-}
-
-combinar(arrCursosSelec, 0, [], eventosCompatiblesFormat, {contadorCompatibles: 0})
+// combinar(arrCursosSelec, 0, [], eventosCompatiblesFormat, {contadorCompatibles: 0})
 // console.log(combinacionesP)
+// const eventosCompatiblesFormatCompleto = []
+// eventosCompatiblesFormat.forEach(eventos => {
+//     eventosCompatiblesFormatCompleto.push(...eventos)
+// })
 
-
-export const generarCombinaciones = (arrCursosSelec) => {
-    const outputArray = []
-    let contadorCompatibles = 0
-    combinar(arrCursosSelec, 0, [], outputArray, {contadorCompatibles: 0})
-    return outputArray.flat()
-}
-
-const eventosCompatiblesFormatCompleto = []
-eventosCompatiblesFormat.forEach(eventos => {
-    eventosCompatiblesFormatCompleto.push(...eventos)
-})
-
-
+// console.log(generarCombinaciones(arrCursosSelec))
 // console.log(eventosCompatiblesFormatCompleto)
 // console.log(generarCombinaciones(arrCursosSelec))

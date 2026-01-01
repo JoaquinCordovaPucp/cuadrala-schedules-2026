@@ -1,4 +1,4 @@
-import { formatHourEvent } from "@/data/data"
+import { formatHourEvent } from "@/data/functions"
 import { Badge } from "@/components/ui/badge.jsx"
 import { Clock, MapPin } from "lucide-react"
 

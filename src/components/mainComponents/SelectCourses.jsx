@@ -1,8 +1,8 @@
-import SearchBar from "./SearchBar.jsx";
-import CourseCard from "./CourseCard.jsx";
+import SearchBar from "../SearchBar.jsx";
+import CourseCard from "../CourseCard.jsx";
 import { useState } from "react";
-import { Button } from "./ui/button.js";
-import AdMobile from "./AdMobile.jsx";
+import { Button } from "../ui/button.js";
+import AdMobile from "../AdMobile.jsx";
 import React from "react";
 
 export default function SelectCourses({cursos, setCourse, selectInfo, setStep}) {

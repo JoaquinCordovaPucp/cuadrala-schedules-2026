@@ -1,4 +1,4 @@
-import { findHorarioData, formatHourEvent } from "@/data/data"
+import { findHorarioData, formatHourEvent } from "@/data/functions"
 import { Badge } from "@/components/ui/badge";
 import { Clock, MapPin } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";

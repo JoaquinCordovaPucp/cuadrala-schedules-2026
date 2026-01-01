@@ -1,7 +1,7 @@
 import {
   Accordion
 } from "@/components/ui/accordion"
-import SelectCourseTeachersCard from "./SelectCourseTeachersCard"
+import SelectCourseTeachersCard from "../SelectCourseTeachersCard"
 import { Button } from "@/components/ui/button"
 import { useState } from "react"
 

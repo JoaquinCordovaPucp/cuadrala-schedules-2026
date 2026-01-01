@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { findHorario } from '@/data/functions_copy.js';
-import Calendar from './Calendar.jsx';
-import ResultHorarioCard from './ResultHorarioCard.jsx';
-import { ButtonGroup } from './ui/button-group.js';
-import { Button } from './ui/button.js';
+import { findHorario } from '@/data/functions.js';
+import Calendar from '../Calendar.jsx';
+import ResultHorarioCard from '../ResultHorarioCard.jsx';
+import { ButtonGroup } from '../ui/button-group.js';
+import { Button } from '../ui/button.js';
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react"
 
 

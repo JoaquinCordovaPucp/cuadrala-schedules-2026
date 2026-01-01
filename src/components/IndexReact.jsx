@@ -1,12 +1,14 @@
 import Steps from './Steps.jsx';
-import SelectCourses from './SelectCourses.jsx';
-import SelectTeachers from './SelectTeachers.jsx';
-import HorariosResults from './HorariosResults.jsx';
+import SelectCourses from './mainComponents/SelectCourses.jsx';
+import SelectTeachers from './mainComponents/SelectTeachers.jsx';
+import HorariosResults from './mainComponents/HorariosResults.jsx';
 import { useState } from 'react';
-import { generarCombinaciones } from "../data/functions_copy.js"
+import { generarCombinaciones } from "../data/functions.js"
+import { cursos } from '../data/functions.js';
 
 
-const IndexReact = ({cursos }) => {
+
+const IndexReact = ({}) => {
     const [step, setStep] = useState(0);                // This track the current step in the multi-step process (0: SelectCourses, 1: SelectTeachers, 2: HorariosResults)
     const [selectInfo, setSelectInfo] = useState([]) // {id: cursoId, horarioId: [horario1, horario2, ...]} [{id: "CDR121", horarioId: ["L205", "204"]}, ... ]
     const [events, setEvents] = useState([])            // This stores the generated schedule combinations based on user selections(Then pass to the HorariosResults component (Calendar))
