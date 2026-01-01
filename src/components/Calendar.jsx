@@ -1,17 +1,13 @@
-import React from 'react'
-import { useState } from 'react'
+
 import FullCalendar from '@fullcalendar/react'
 import timeGridPlugin from '@fullcalendar/timegrid'
 import { Badge } from '@/components/ui/badge'
-
-
-
+import { ArrowDownToLine, ArrowUpToLine } from 'lucide-react'
 
 export default function Calendar({ events }) {
   return (
     <div className='h-full w-full'>
       <FullCalendar
-        // titleFormat={date => renderTitle(date)}
         plugins={[timeGridPlugin]}
         initialView='timeGridWeek'
         headerToolbar={false}   
@@ -32,19 +28,21 @@ export default function Calendar({ events }) {
 
 // a custom render function
 function renderEventContent(eventInfo) {
+  const start = eventInfo.timeText.split(" - ")[0]
+  const end = eventInfo.timeText.split(" - ")[1]
+
   return (
-    <div className='text-xs flex flex-col items-start justify-start w-full h-full'>
-      <b className=''>{eventInfo.timeText}</b>
+    <div className='text-[0.6rem] flex flex-col items-center justify-start w-full h-full gap-0.5 py-0.5 overflow-hidden'>
       <i className='font-bold'>{eventInfo.event.title}</i>
-      <Badge variant='outline text-white'>{eventInfo.event.extendedProps.horarioId}</Badge>                
+      <Badge variant='outline text-white' className='text-[0.5rem] border-[0.5px] px-1 py-0 mb-0.5'>{eventInfo.event.extendedProps.horarioId}</Badge>                
+      <span className="text-[0.6rem] flex items-center font-thin">
+        <ArrowDownToLine size={9} strokeWidth={1} />
+        {": " + start}
+      </span>
+      <span className="text-[0.6rem] flex items-center  font-thin">
+        <ArrowUpToLine size={9} strokeWidth={1} />
+        {": " + end}
+      </span>
     </div>
   )
 }
-
-{/* <FullCalendar
-  plugins={[dayGridPlugin]}
-  initialView='dayGridMonth'
-  weekends={false}
-  events={events}
-  eventContent={renderEventContent}
-/> */}

@@ -89,7 +89,7 @@ const IndexReact = ({cursos }) => {
         })
     }
 
-    const handleButtonGeneraComb = () => {
+    const handleButtonGeneraComb = () => {                      // UseCallBack ????
         const combinaciones = generarCombinaciones(selectInfo)
         setEvents(combinaciones)
         setStep(2)

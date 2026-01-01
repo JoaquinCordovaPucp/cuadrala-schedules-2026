@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import CalendarNInputs from '../components/CalendarNInputs.jsx';
-import { data, cursos } from '../data/data.js'
 import { findHorario } from '@/data/functions_copy.js';
 import Calendar from './Calendar.jsx';
 import ResultHorarioCard from './ResultHorarioCard.jsx';
@@ -32,22 +30,21 @@ export default function HorarioResults({ events }) {
     }
 
     return(
-        <div className="overflow-y-auto w-full h-full bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-4 mb-6">
+        <div className="overflow-y-auto w-full h-full bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-3 mb-2">
             <div className='flex flex-row w-full justify-between'>
                 <h3 className='font-bold text-xl'>Horario {indexEvent + 1 } de {eventsLength}</h3>
                 <ButtonGroup>
-                    <Button variant="outline" onClick={() => handleButton("prev")}><ArrowLeftIcon /></Button>
-                    <Button variant="outline" onClick={() => handleButton("next")}><ArrowRightIcon /></Button>
+                    <Button variant="outline" disabled={indexEvent === 0} onClick={() => handleButton("prev")}><ArrowLeftIcon /></Button>
+                    <Button variant="outline" disabled={indexEvent === eventsLength - 1} onClick={() => handleButton("next")}><ArrowRightIcon /></Button>
                 </ButtonGroup>
             </div>
             <Calendar events={events[indexEvent]} />
             <h2 className='font-bold text-lg'>Resumen del horario</h2>
             {events[indexEvent].map((evento, i, arr) => {
-                if (i > 0 && evento.title === events[indexEvent][i-1].title){
+                if (i > 0 && evento.title === events[indexEvent][i-1].title){ // Debido a que solo necesito 1 evento por curso para saber el curso y el horario, solo me quedo con el primero, los demas los ignoro
                     return
                 }
                 const h = findHorario(evento.title, evento.horarioId)
-                console.log("h", h)
                 return(
                     <>
                     <ResultHorarioCard horario={h} />
@@ -58,8 +55,3 @@ export default function HorarioResults({ events }) {
         </div>
     )
 }
-
-
-
-
-// TODO: Add the course id to the badge to reander in FullCalendar events.

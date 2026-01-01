@@ -20,7 +20,7 @@ export default function SelectCourses({cursos, setCourse, selectInfo, setStep}) 
         )
     )
     return(
-        <div className="w-full min-h-0 bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-4 mb-2">
+        <div className="w-full min-h-0 bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-3 mb-2">
             <h2 className="text-2xl font-bold mb-2">Selecciona tus cursos</h2>
             <SearchBar
                 searchQuery={searchQuery}
