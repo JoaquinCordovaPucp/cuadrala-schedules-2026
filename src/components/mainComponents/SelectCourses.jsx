@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Button } from "../ui/button.js";
 import AdMobile from "../AdMobile.jsx";
 import React from "react";
+import MainComponentLayout from "./MainComponentLayout.jsx";
 
 export default function SelectCourses({cursos, setCourse, selectInfo, setStep}) {
     
@@ -20,7 +21,7 @@ export default function SelectCourses({cursos, setCourse, selectInfo, setStep}) 
         )
     )
     return(
-        <div className="w-full min-h-0 bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-3 mb-2">
+        <MainComponentLayout>
             <h2 className="text-2xl font-bold mb-2">Selecciona tus cursos</h2>
             <SearchBar
                 searchQuery={searchQuery}
@@ -43,6 +44,6 @@ export default function SelectCourses({cursos, setCourse, selectInfo, setStep}) 
             <Button disabled={!selectInfo.length} onClick={() => {setStep(1)}} size="lg" variant="outline">
                 Siguiente
             </Button>
-        </div>
+        </MainComponentLayout>
     )
 }

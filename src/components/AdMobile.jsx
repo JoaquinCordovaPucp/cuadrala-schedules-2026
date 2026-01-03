@@ -1,6 +1,6 @@
 export default function AdMobile() {
   return (
-    <a href="https://cuadrala.com?utm_source=app&utm_medium=ad_mobile" target="_blank" rel="noopener noreferrer">
+    <a href="https://cuadrala.com?utm_source=app&utm_medium=ad_mobile" target="_blank" rel="noopener noreferrer" className="md:hidden">
     <img
       src="/AdMobileImg.jpg"
       alt="Ad for mobile"

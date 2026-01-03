@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import IndexReact from '../components/IndexReact.jsx';
+import IndexReact from '../components/mainComponents/IndexReact';
 import Nav from '../components/Nav.astro';
 import Hero from '../components/Hero.astro';
 ---
@@ -8,7 +8,7 @@ import Hero from '../components/Hero.astro';
 <Layout>
 	<div class="h-full flex flex-col">
 		<Nav type='advanced'/>
-		<Hero type='advanced'/>
+		<Hero type='base' />
 		<IndexReact  client:load />
 	</div>
 </Layout>

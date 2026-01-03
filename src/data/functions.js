@@ -60,11 +60,13 @@ const evaluarCoinidencia = (eventos) => {
         for(let j = i + 1; j < eventos.length; j++){
             const evento1 = eventos[i]
             const evento2 = eventos[j]
-            if(Math.min(evento1.fin, evento2.fin) > Math.max(evento1.inicio, evento2.inicio)){
-                console.log("Chocan", evento1, "con", evento2)
-                sonCompatibles = false
+            if((evento1.tipo != "EXA" && evento2.tipo != "EXA") || (evento1.tipo === "EXA") && (evento2.tipo === "EXA")) {
+                if(Math.min(evento1.fin, evento2.fin) > Math.max(evento1.inicio, evento2.inicio)){
+                    console.log("Chocan", evento1, "con", evento2)
+                    sonCompatibles = false
+                }
             }
-
+            continue
         }
     }
     return sonCompatibles
@@ -156,9 +158,6 @@ export const findHorario = (id, horario) => {
   const curso = cursos.find(c => c.id === id)
   return curso.horarios.find(h => h.horarioId == horario)
 }
-
-
-
 
 
 // DATA

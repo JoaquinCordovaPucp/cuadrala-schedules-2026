@@ -1,10 +1,10 @@
-import Steps from './Steps.jsx';
-import SelectCourses from './mainComponents/SelectCourses.jsx';
-import SelectTeachers from './mainComponents/SelectTeachers.jsx';
-import HorariosResults from './mainComponents/HorariosResults.jsx';
+import Steps from '../Steps.jsx';
+import SelectCourses from './SelectCourses.jsx';
+import SelectTeachers from './SelectTeachers.jsx';
+import HorariosResults from './HorariosResults.jsx';
 import { useState } from 'react';
-import { generarCombinaciones } from "../data/functions.js"
-import { cursos } from '../data/functions.js';
+import { generarCombinaciones } from "../../data/functions.js"
+import { cursos } from '../../data/functions.js';
 
 
 
@@ -98,7 +98,7 @@ const IndexReact = ({}) => {
     }
     
     return(
-        <div className="min-h-0 flex flex-col items-center px-4 pb-2 w-full">
+        <div className="min-h-0 flex flex-col items-center px-4 pb-2 w-full md:max-w-3/5 md:mx-auto">
             <Steps step={step} setStep={setStep} /> 
             {step === 0 && <SelectCourses cursos={cursos} setCourse={setCourse} selectInfo={selectInfo} setStep={setStep}/> }
             {step === 1 && <SelectTeachers selectInfo={selectInfo} setCourse={setCourse} handleButtonGeneraComb={handleButtonGeneraComb} />}

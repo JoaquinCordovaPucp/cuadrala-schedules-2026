@@ -18,7 +18,7 @@ export default function SelectCourseTeachersCard({selecCurso, setCourseId}) {
     return(
         <AccordionItem key={`${id}-accordion`} value={id} className="w-full bg-[#F8F7FC] rounded-lg border px-2.5 gap-2 flex flex-col py-3">
             <AccordionTrigger className="">
-                <div className="flex w-full items-center justify-between">
+                <div className="flex w-full items-center justify-between md:flex-col md:items-start gap-1">
                     <h2 className="text-xl font-semibold">{cursoData.title}</h2>
                     <Badge variant="outline">{id}</Badge>
                 </div>
@@ -34,11 +34,11 @@ export default function SelectCourseTeachersCard({selecCurso, setCourseId}) {
                             isChecked={horarioId.some(h => h === horario.horarioId)}/>
                     )
                 })}
-                <div className="w-full flex flex-row items-center">
+                <div className="w-full flex flex-row items-center justify-between ">
                     <p className="ml-4">{horarioId.length} de {cursoData.horarios.length} profesores seleccionados </p>
                     <div className="grid grid-row-2 gap-1" >
                         <Button size="sm" onClick={() => setCourseId(id, "addAll", cursoData.horarios.map(horario => horario.horarioId))} className="" variant="outline">
-                            <Star />
+                            <Star className="text-yellow-300"/>
                             <p className="text-xs">Seleccionar todos</p>
                         </Button>
                         <Button size="sm" onClick={() => setCourseId(id, "removeAll")} variant="outline" >

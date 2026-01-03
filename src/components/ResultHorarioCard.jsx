@@ -1,6 +1,6 @@
 import { formatHourEvent } from "@/data/functions"
 import { Badge } from "@/components/ui/badge.jsx"
-import { Clock, MapPin } from "lucide-react"
+import { Clock, School } from "lucide-react"
 
 export default function ResultHorarioCard({ horario }) {
 
@@ -14,7 +14,7 @@ export default function ResultHorarioCard({ horario }) {
                 }
             }}/>  */}
             <div className="flex flex-col">
-                <label htmlFor={`horario-${horario.horarioId}`} className=" text-lg font-medium cursor-pointer flex flex-col sm:flex-row sm:items-center">
+                <label htmlFor={`horario-${horario.horarioId}`} className="font-semibold cursor-pointer flex flex-col md:justify-start">
                     <h3 className="">{horario.profesor}</h3>
                     <Badge variant="outline">{horario.horarioId}</Badge>
                 </label>
@@ -27,8 +27,8 @@ export default function ResultHorarioCard({ horario }) {
                                 <p>{eventoFormat.dia}: {eventoFormat.inicioFormat} - {eventoFormat.finFormat}</p>
                             </div>
                             <div className="text-sm flex items-center ">
-                                <MapPin className="h-5 w-5 mr-2"/>
-                                <p className="text-xs text-muted-foreground">{evento.tipo} - {evento.aula}</p>
+                                <School className="h-5 w-5 mr-2"/>
+                                <p className="text-xs text-muted-foreground">{evento.tipo}</p>
                             </div>
                         </div>
                     )

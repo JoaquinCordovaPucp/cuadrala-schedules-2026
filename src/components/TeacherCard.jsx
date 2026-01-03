@@ -1,6 +1,6 @@
 import { findHorarioData, formatHourEvent } from "@/data/functions"
 import { Badge } from "@/components/ui/badge";
-import { Clock, MapPin } from "lucide-react";
+import { Clock, School } from "lucide-react";
 import { Checkbox } from "@/components/ui/checkbox";
 
 export default function TeacherCard({cursoId, horarioId, setCourseId, isChecked}) {
@@ -16,21 +16,21 @@ export default function TeacherCard({cursoId, horarioId, setCourseId, isChecked}
                 }
             }}/> 
             <div className="flex-1">
-                <label htmlFor={`horario-${horarioId}-${cursoId}`} className=" font-semibold cursor-pointer flex flex-col sm:flex-row sm:items-center">
+                <label htmlFor={`horario-${horarioId}-${cursoId}`} className="font-semibold cursor-pointer flex flex-col md:justify-start">
                     <span className="text-base">{horarioData.profesor}</span>
                     <Badge variant="outline">{horarioId}</Badge>
                 </label>
                 {horarioData.eventos.map((evento, index) => {
                     const eventoFormat = formatHourEvent(evento.inicio, evento.fin)
                     return(
-                        <div className="flex flex-col items-start gap-2 mt-2" key={`${cursoId}-${horarioId}-evento-${index}`}>
+                        <div className="flex flex-col items-start gap-1 mt-2" key={`${cursoId}-${horarioId}-evento-${index}`}>
                             <div className="text-sm flex items-center">
                                 <Clock className="h-5 w-5 mr-2"/>
                                 <p>{eventoFormat.dia}: {eventoFormat.inicioFormat} - {eventoFormat.finFormat}</p>
                             </div>
                             <div className="text-sm flex items-center ">
-                                <MapPin className="h-5 w-5 mr-2"/>
-                                <p className="text-xs text-muted-foreground">{evento.tipo} - {evento.aula}</p>
+                                <School className="h-5 w-5 mr-2"/>
+                                <p className="text-xs text-muted-foreground">{evento.tipo}</p>
                             </div>
                         </div>
                     )

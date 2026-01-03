@@ -5,6 +5,9 @@ import ResultHorarioCard from '../ResultHorarioCard.jsx';
 import { ButtonGroup } from '../ui/button-group.js';
 import { Button } from '../ui/button.js';
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react"
+import { Alert, AlertTitle, AlertDescription } from '../ui/alert.js';
+import { AlertCircleIcon } from 'lucide-react';
+import MainComponentLayout from './MainComponentLayout.jsx';
 
 
 export default function HorarioResults({ events }) {
@@ -29,8 +32,8 @@ export default function HorarioResults({ events }) {
         }
     }
 
-    return(
-        <div className="overflow-y-auto w-full h-full bg-[#F8F7FC] rounded-lg shadow-[0_2px_100px_rgba(0,0,0,0.25)] px-2.5 gap-2 flex flex-col py-3 mb-2">
+    return( eventsLength > 0 ?
+        (<MainComponentLayout>
             <div className='flex flex-row w-full justify-between'>
                 <h3 className='font-bold text-xl'>Horario {indexEvent + 1 } de {eventsLength}</h3>
                 <ButtonGroup>
@@ -52,6 +55,18 @@ export default function HorarioResults({ events }) {
                 )
                 
             })}
-        </div>
+        </MainComponentLayout> )
+        : 
+        (<Alert variant="destructive">
+            <AlertCircleIcon />
+            <AlertTitle>No combinaciones disponibles.</AlertTitle>
+            <AlertDescription>
+                <p>Por favor elige otros profesores u horarios.</p>
+                <ul className="list-inside list-disc text-sm">
+                    <li>Cambia de cursos</li>
+                    <li>Cambia de profesores</li>
+            </ul>
+            </AlertDescription>
+        </Alert>)
     )
 }
